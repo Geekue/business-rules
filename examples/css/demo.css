@@ -40,10 +40,6 @@ a:hover.remove,
   color: red;
 }
 
-.rule input {
-  /*width: 250px;*/
-}
-
 .rule select {
   margin-right: 10px;
 }
