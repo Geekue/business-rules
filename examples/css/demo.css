@@ -1,5 +1,7 @@
 #conditions, #actions {
+  background-color: #EEE;
   margin: 20px 0;
+  padding: 18px;
 }
 
 #conditions > .conditional > .remove, #actions > .conditional > .remove {
@@ -14,13 +16,14 @@
   padding-left: 60px;
 }
 
-  .conditional .all-any-none-wrapper {
-    margin: 5px 20px 5px -60px;
-    display: -moz-inline-stack;
-    display: inline-block;
-  }
+.conditional .all-any-none-wrapper {
+  margin: 5px 20px 5px -49px;
+  display: -moz-inline-stack;
+  display: inline-block;
+}
 
 .all-any-none {
+  margin-left: 10px;
   margin-right: 10px;
 }
 
@@ -29,15 +32,16 @@
 }
 
 .add-rule, .add-condition, .remove {
-  margin: auto 5px;
+  margin: auto 20px auto 5px;
 }
 
+a:hover.remove,
 .remove {
   color: red;
 }
 
 .rule input {
-  width: 250px;
+  /*width: 250px;*/
 }
 
 .rule select {
@@ -82,7 +86,19 @@
   background: #ddd;
 }
 
-  #demo-form div {
-    margin: 10px 0;
-  }
+#demo-form div {
+  margin: 10px 0;
+}
+
+.rule,
+.action {
+  background-color: rgba(0,0,0,0.05);
+  padding: 10px 10px 0 10px;
+}
+
+[class^="icon-plus-sign"],
+[class*=" icon-plus-sign"] {
+  color: #3EBEB4;
+  margin-right: 4px;
+}
 
